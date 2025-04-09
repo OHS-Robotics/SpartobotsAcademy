@@ -3,7 +3,7 @@ This respository contains resources for learning programming, geared towards pro
 
 Read below for more information, instructions on how to play with these lessons on your own PC, setting up your PC to be able to develop Java code, and more
 
-# Setting up your programming environment
+# Your Programming Environment
 Unfortunately, there are a few necessary steps that you need to take before you can actually run any code.  It's sort of just a fact of life when it comes to programming.  However, following the guides below should be able to get you up and running with zero prior knowledge required.
 
 Specifically, the following things are required:
@@ -16,7 +16,7 @@ And the following things are technically optional but recommended:
 - A Github Account that is a member of the Spartobots github organization
 - Github Desktop installed on your PC
 
-## A few important notes
+## Important notes about Java and programming in general
 - Setting up your programming environment so that you can actually *run* some code can be one of the most frustrating steps to learning programming.
   - In this guide, and with these lessons, we aim to give a very functional knowledge.  
   - We may not explain all the nuances of how exactly the entire environment works together, but with the following instructions, you should be able to get your computer set up to be able to use the lessons in this repository and hit the ground running.
@@ -26,9 +26,9 @@ And the following things are technically optional but recommended:
   - The earlier lessons which teach more general programming concepts, which aren't specific to an FRC robot, are designed so that you can run them locally, so that you can edit them and re run them very quickly.
   - The later lessons that deal with programming on a robo rio specifically, you will not be able to run locally on your machine
     - The exception to this is that you can run most robot code in a simulator that is packaged with WPIlib.  If you're interested in this, see the WPIlib documentation about it [here](https://docs.wpilib.org/en/stable/docs/software/wpilib-tools/robot-simulation/introduction.html)
-  - **Note:** Although a project that is set up to be run locally may not be able to run on the robo rio will not be able to be downloaded to a robo rio, fundamentally, the Java code within that project is still code that you could put within a robo rio project.  It is simply the build system that is included in that project that changes where and how you are able to deploy that code (e.g. you can still write your own classes, functions, loops, etc. in a robo rio project, the same as in a regular java project.  It's just the "supporting" files included in each lesson/project that determine on what type of computer they are designed to be run (robo rio vs. a windows PC))
+  - Although a project that is set up to be run locally may not be able to run on the robo rio will not be able to be downloaded to a robo rio, fundamentally, the Java code within that project is still code that you could put within a robo rio project.  It is simply the build system that is included in that project that changes where and how you are able to deploy that code (e.g. you can still write your own classes, functions, loops, etc. in a robo rio project, the same as in a regular java project.  It's just the "supporting" files included in each lesson/project that determine on what type of computer they are designed to be run (robo rio vs. a windows PC))
 
-## Setting up your environment
+## Notes on setting up your environment for FRC Development
 - All java programming (which is the language team 4687 chooses to use) is done within a text editor/Integrated Development Environment (IDE) called Visual Studio Code (VS Code).
   - For FRC specifically, we install an instance of VS Code that stands by itself (doesn't overwrite or interfere with any other instances of VS Code already installed on the computer, including other instances from past FRC seasons)
   - This is simply a regular VS Code installation that has been pre-packaged and pre-configured with a bunch of useful tools for developing FRC code.
@@ -40,6 +40,8 @@ And the following things are technically optional but recommended:
   - **However** if you plan to write code that you can download to a robo rio, or even if you think you *might*, we would recommend that you download and install the latest FRC Season's WPILib VS Code (steps found [here](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/index.html))
     - This will take more time (an hour or so depending on your internet speed)
     - This will involve the installation of more tools than just VS Code (it will include the driver station, which you use to control the robot during a match or testing, and other FRC-Specific applications)
+
+## Now for the actual installation
 
 ### Installing the JDK (Required)
 In order to develop and run java code, you must have the Java Developer Kit (JDK) installed on your computer.
@@ -58,7 +60,7 @@ In order to download and run the lessons from this repository (and to be able to
 
 For more information on how to actually use github to download and upload code, see the corresponding lesson in this repository
 
-### Installing Vanilla VS Code (Either this or the WPILib flavor of VS Code are required)
+### Installing Vanilla VS Code (Either this or the WPILib flavor of VS Code is required)
 1. Go to [this link](https://code.visualstudio.com/) and download the latest version of VS Code
 2. Run the installer that is downloaded
 3. Select all default options and complete the installation
@@ -69,7 +71,7 @@ For more information on how to actually use github to download and upload code, 
   2. "Extension Pack for Java" (by Microsoft) (This will download a few extensions for you)
 7. Your installation of VSC should now be complete and ready to run code
 
-### Installing WPILib's flavor of VSC
+### Installing WPILib VS Code (Either this or the vanilla VS Code is required)
 1. This installation can take a little while (an hour or so) so be prepared
 2. Go to [this link](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/index.html) to find WPILib's instructions for setting up your development environment for FRC
 3. The guide found there will be better than whatever I could write here, so I will just leave it up to them
@@ -79,9 +81,10 @@ For more information on how to actually use github to download and upload code, 
   3. You will need [WPILib](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html)
   4. You will **not** need any python tools or the tools specifically for labview teams
 
-# How to download and use the code in this repository
+# How to use download and use these lessons
 There are two main ways you could download the lessons from this repository and run them
-## Cloning the Repository (Recommended)
+
+## 1. Cloning the Repository (Recommended)
 Cloning a repository simply means making a local copy of it on your own machine.  Here's how to clone this repository
 1. Go to this repository's [github page](https://github.com/OHS-Robotics/SpartobotsAcademy) (You're probably already here)
 2. Find the (probably green) button that says "Code"
@@ -89,6 +92,15 @@ Cloning a repository simply means making a local copy of it on your own machine.
 4. It should open up the github desktop application (if you have it installed.  If not, see above) with a clone repository dialog
 5. Select the folder on your computer into which you would like to clone the repo
 6. Once the repo has been cloned, you can check that folder and see that all of the repo's files have now been placed there
+
+## 2. Downloading the code as a zip file manually
+If for some reason you don't want to install and use github to download the code (maybe you just are checking something out quick), follow these steps
+1. Go to this repository's [github page](https://github.com/OHS-Robotics/SpartobotsAcademy) (You're probably already here)
+2. Find the (probably green) button that says "Code"
+3. Click on it and select "Download Zip".  A Zip file containing the entire repo will be downloaded
+4. Extract the zip file.
+5. See the section below on opening one of the lessons for instructions on how to do that
+
 
 ## Opening one of this repository's lessons in VS Code
 This repository's Lessons folder contains a bunch of sub folders, each of which is a separate lesson which are designed to be opened as a folder in VS Code.
@@ -107,9 +119,10 @@ As mentioned above, some lessons are designed to be run locally on your machine.
 10. If this is your first time compiling and running a java project, it may take a bit for the java workspace to initialize.  Just be patient and keep an eye on the status indicators on the bottom of the screen
 11. Also keep any eye out for any popups in the bottom right of VS Code that could let you know if you don't have some necessary extension or piece of software installed
 
-## Creating your own project to play around and write your own code
-If you want to start your own fresh project to be able to start from scratch yourself, that's great!  Here's how you can do that
+# Creating your own projects
+If you want to start your own fresh project to be able to start from scratch yourself, that's great!  Here's how you can do that, depending on whether you want a simple java project to run on your own machine, or a WPILib project you could deploy to a robo rio
 
+## Simple Java Project
 1. Open VS Code
 2. Press Ctrl+Shift+P to open the command pallette
 3. Start typing "java" and select "Java: Create Java Project..."
@@ -119,3 +132,26 @@ If you want to start your own fresh project to be able to start from scratch you
 7. Press enter to accept the project name, or enter a new one
 8. After a little bit, you should see a popup in the bottom right of VS Code saying your project has been created.  Go ahead and click "Open" to open it
   1. You can also manually open the project at a later time by going to File -> Open Folder and opening the folder in which you created the project
+
+## Robot Project
+1. Open WPILib VS Code (required--cannot use vanilla VS Code for this)
+2. Press Ctrl+Shift+P to open the command pallette
+3. Start typing "WPILib" and select "WPILib: Create a new project"
+4. Press the button to select a project type
+5. Select Template
+6. Select Java
+7. Select Command Robot
+8. Click "Select a new project folder" and navigate to and select the folder you'd like to place this project in
+9. Give the project a name
+10. Decide whether you want to create a new folder with the name you just gave or just place all the project files directly in the folder you alread selected
+11. Enter your team number (4687)
+12. Check enable desktop support (this allows the code to be run in the simulator)
+13. Click Generate Project
+14. A dialog should pop up asking if you'd like to open your newly created project.  Click one of the "yes" options
+15. The source code for your robot can then be found in src -> java.  The program starts execution in the function "Main" in the class "Main.java", but most of the code you write, when you are learning, will likely go within Robot.java.  If you know enough to put your code elsewhere, then go right ahead!
+16. You can deploy your code to a robo rio by connecting to it (either connecting to it's wifi network, a USB Cable, or an Ethernet Cable), then doing one of the following:
+  1. Pressing Ctrl+Shift+P then typing WPILib and selecting "WPILib: Deploy Robot Code"
+  2. Clicking the WPILib logo in the top right of VS Code and "WPILib: Deploy Robot Code"
+  3. Pressing Shift+F5
+17. If your code doesn't have any errors and you're connected to the robo rio, you should see an output in the terminal window that slowly progresses then tells you it was successful
+18. In order to actually control the robot, you must open the driver's station application separately, connect a controller, and switch the mode to Teleoperated and Enabled
