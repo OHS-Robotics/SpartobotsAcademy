@@ -3,6 +3,23 @@ This respository contains resources for learning programming, geared towards pro
 
 Read below for more information, instructions on how to play with these lessons on your own PC, setting up your PC to be able to develop Java code, and more
 
+# Table of Contents
+- [Your Programming Environment](#your-programming-environment)
+  - [Important notes about Java and programming in general](#important-notes-about-java-and-programming-in-general)
+  - [Notes on setting up your environment for FRC Development](#notes-on-setting-up-your-environment-for-frc-development)
+  - [Now for the actual installation](#now-for-the-actual-installation)
+    - [Installing the JDK (Required)](#installing-the-jdk-required)
+    - [Installing Github Desktop (Technically Optional, but strongly recommended)](#installing-github-desktop-technically-optional-but-strongly-recommended)
+    - [Installing Vanilla VS Code (Either this or the WPILib flavor of VS Code is required)](#installing-vanilla-vs-code-either-this-or-the-wpilib-flavor-of-vs-code-is-required)
+    - [Installing WPILib VS Code (Either this or the vanilla VS Code is required)](#installing-wpilib-vs-code-either-this-or-the-vanilla-vs-code-is-required)
+- [How to download and use these lessons](#how-to-download-and-use-these-lessons)
+  - [1. Cloning the Repository (Recommended)](#1-cloning-the-repository-recommended)
+  - [2. Downloading the code as a zip file manually](#2-downloading-the-code-as-a-zip-file-manually)
+  - [Opening one of this repository's lessons in VS Code](#opening-one-of-this-repositorys-lessons-in-vs-code)
+- [Creating your own projects](#creating-your-own-projects)
+  - [Simple Java Project](#simple-java-project)
+  - [Robot Project](#robot-project)
+
 # Your Programming Environment
 Unfortunately, there are a few necessary steps that you need to take before you can actually run any code.  It's sort of just a fact of life when it comes to programming.  However, following the guides below should be able to get you up and running with zero prior knowledge required.
 
@@ -81,7 +98,7 @@ For more information on how to actually use github to download and upload code, 
   3. You will need [WPILib](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html)
   4. You will **not** need any python tools or the tools specifically for labview teams
 
-# How to use download and use these lessons
+# How to download and use these lessons
 There are two main ways you could download the lessons from this repository and run them
 
 ## 1. Cloning the Repository (Recommended)
@@ -133,7 +150,7 @@ If you want to start your own fresh project to be able to start from scratch you
 8. After a little bit, you should see a popup in the bottom right of VS Code saying your project has been created.  Go ahead and click "Open" to open it
   1. You can also manually open the project at a later time by going to File -> Open Folder and opening the folder in which you created the project
 
-## Robot Project
+## WPILib Project
 1. Open WPILib VS Code (required--cannot use vanilla VS Code for this)
 2. Press Ctrl+Shift+P to open the command pallette
 3. Start typing "WPILib" and select "WPILib: Create a new project"
