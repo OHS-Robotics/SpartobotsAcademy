@@ -10,7 +10,7 @@ Read below for more information, instructions on how to play with these lessons 
   - [Now for the actual installation](#now-for-the-actual-installation)
     - [Installing the JDK (Required)](#installing-the-jdk-required)
     - [Installing Github Desktop (Technically Optional, but strongly recommended)](#installing-github-desktop-technically-optional-but-strongly-recommended)
-    - [Installing Vanilla VS Code (Either this or the WPILib flavor of VS Code is required)](#installing-vanilla-vs-code-either-this-or-the-wpilib-flavor-of-vs-code-is-required)
+    - [Installing Vanilla VS Code (Either this or WPILib VS Code is required)](#installing-vanilla-vs-code-either-this-or-wpilib-vs-code-is-required)
     - [Installing WPILib VS Code (Either this or the vanilla VS Code is required)](#installing-wpilib-vs-code-either-this-or-the-vanilla-vs-code-is-required)
 - [How to download and use these lessons](#how-to-download-and-use-these-lessons)
   - [1. Cloning the Repository (Recommended)](#1-cloning-the-repository-recommended)
@@ -18,7 +18,7 @@ Read below for more information, instructions on how to play with these lessons 
   - [Opening one of this repository's lessons in VS Code](#opening-one-of-this-repositorys-lessons-in-vs-code)
 - [Creating your own projects](#creating-your-own-projects)
   - [Simple Java Project](#simple-java-project)
-  - [Robot Project](#robot-project)
+  - [WPILib Project](#wpilib-project)
 
 # Your Programming Environment
 Unfortunately, there are a few necessary steps that you need to take before you can actually run any code.  It's sort of just a fact of life when it comes to programming.  However, following the guides below should be able to get you up and running with zero prior knowledge required.
@@ -77,7 +77,7 @@ In order to download and run the lessons from this repository (and to be able to
 
 For more information on how to actually use github to download and upload code, see the corresponding lesson in this repository
 
-### Installing Vanilla VS Code (Either this or the WPILib flavor of VS Code is required)
+### Installing Vanilla VS Code (Either this or WPILib VS Code is required)
 1. Go to [this link](https://code.visualstudio.com/) and download the latest version of VS Code
 2. Run the installer that is downloaded
 3. Select all default options and complete the installation
